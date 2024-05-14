@@ -1,0 +1,123 @@
+.filler{
+
+    height: 100vh;
+    width: 105%;
+    margin:-8px;
+
+}
+
+main, footer {
+    background-color: rgb(140, 253, 253);
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.image{
+    margin-bottom: 40px;
+    background: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    padding-top: 30px;
+}
+.keywords{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(110, 100, 87);
+}
+.filler1{
+
+    padding-bottom: 100px;
+    height: 100vh;
+    width: 105%;
+    margin:-8px;
+   
+
+}
+.title{
+    position: relative;
+    height: 100vh;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 40px;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 40px;
+}
+.motivation {
+    padding-top: 100px;
+    width: 1100px;
+    margin: auto;
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+
+}
+.image3{
+    width: 100%;
+    height: 75%;
+}
+
+
+h2{
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(34, 21, 214);
+    width: 1100px; padding: 0px 10px;
+}
+.moreDetails{
+    text-align: center; 
+    width: 1100px;
+    text-align: center; 
+    padding: 0px 10px;
+}
+.titleSentence{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding-left: 100px;
+    font-family: sans-serif;
+    font-size: 70px;
+    color: rgb(103, 14, 219);
+}
+
+.summary{
+    width: 525px;
+    height: 200px;
+}
+
+.conclusionBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-end;
+    padding: 50px 0px;
+    gap: 20px;
+}
+.conclusion{
+    width: 20%;
+}
